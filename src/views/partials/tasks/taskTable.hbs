@@ -4,9 +4,9 @@
     <thead>
       <tr>
         <th>N.</th>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Operations</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Operaciones</th>
       </tr>
     </thead>
 
@@ -21,16 +21,16 @@
               <a
                 href="/tasks/{{_id}}/toggleDone"
                 class="btn btn-dark"
-              >Undone</a>
+              >Sin terminar</a>
             {{else}}
               <a
                 href="/tasks/{{_id}}/toggleDone"
                 class="btn btn-success"
-              >Done</a>
+              >Terminada</a>
             {{/if}}
 
-            <a href="/tasks/{{_id}}/delete" class="btn btn-danger">Delete</a>
-            <a href="/tasks/{{_id}}/edit" class="btn btn-info">Update</a>
+            <a href="/tasks/{{_id}}/delete" class="btn btn-danger">Borrar</a>
+            <a href="/tasks/{{_id}}/edit" class="btn btn-info">Editar</a>
           </td>
         </tr>
 
@@ -42,7 +42,7 @@
 
   <div class="h-100 d-flex align-items-center justify-content-center">
     <div class="text-center text-white">
-      <h2>No tasks</h2>
+      <h2>No hay tareas</h2>
       <img src="/icons/empty.svg" alt="" class="w-75"/>
     </div>
   </div>
