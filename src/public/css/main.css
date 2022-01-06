@@ -1,7 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
 body{
     background-color: #212121;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color: rgb(90, 88, 88);
 }
 
 .bg-black {
     background-color: #111;
+}
+
+.nav{
+    background-color: white;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+input:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+textarea:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+table{
+    margin: 10px;
+}
+
+form{
+    width: 100% !important;
+}
+
+a{
+    margin: 8px;
 }
